@@ -1,3 +1,3 @@
 # random-screens
 
-Adapated from https://github.com/Neurone/reMarkable
+Adapted from https://github.com/Neurone/reMarkable
