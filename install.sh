@@ -2,11 +2,11 @@
 
 # sync this directory to the remarkable
 
-rsync -az --exclude=.git . root@remarkable:remcustom/
+rsync -az --exclude=.git . root@remarkable.local:remcustom/
 
 # connect and run the install
 
-ssh -T remarkable << EOF
+ssh -T remarkable.local << EOF
   bash
   ./remcustom/screens/install.sh
   systemctl restart xochitl
