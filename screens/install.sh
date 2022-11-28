@@ -12,7 +12,7 @@ IMAGES="$HOME/remcustom/screens/images"
 # tree.jpg
 
 POWEROFF="$IMAGES/tree.jpg"
-SUSPENDED="$IMAGES/plants.jpg"
+SUSPENDED="$IMAGES/roots1.png"
 
 cp $POWEROFF /usr/share/remarkable/poweroff.png
 cp $SUSPENDED /usr/share/remarkable/suspended.png
